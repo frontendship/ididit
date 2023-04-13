@@ -8,7 +8,7 @@ const Navbar = () => {
   const session = useSession();
 
   return (
-    <nav className="h-20  items-center flex justify-between md:px-0 px-8">
+    <nav className="flex items-center justify-between h-20 px-8 md:px-0">
       <div>
         <h1 className="text-2xl font-bold">I did it🏳️‍🌈</h1>
       </div>
