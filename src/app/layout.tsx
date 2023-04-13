@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { headers } from "next/headers";
 import AuthWrappers from "./AuthContext";
+import Navbar from "./components/Navbar";
 
 export const metadata = {
   title: "Create Next App",
@@ -36,7 +37,10 @@ export default async function RootLayout({
     <html lang="en" className={inter.className}>
       <body className="bg-slate-900 text-white">
         <AuthWrappers session={session}>
-          <div className="container mx-auto h-screen">{children}</div>
+          <div className="container mx-auto h-screen">
+            <Navbar />
+            {children}
+          </div>
         </AuthWrappers>
       </body>
     </html>

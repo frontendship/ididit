@@ -6,7 +6,7 @@ export const metadata = {
 };
 
 const Home = () => {
-  return <Navbar />;
+  return <></>;
 };
 
 export default Home;
