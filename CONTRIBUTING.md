@@ -16,7 +16,7 @@
 Make sure you have installed the [pnpm package manager](https://pnpm.io/). Check the .nvmrc file and set the node version.
 
 1. Clone the repository
-2. Install dependencies with `pnpm i`" to "Install dependencies by running `pnpm i`
+2. Install dependencies by running `pnpm i`
 3. Run the project by executing `pnpm dev`
 
 ### Commit messages
